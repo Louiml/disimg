@@ -10,8 +10,8 @@ int main()
         return -1;
     }
 
-    namedWindow("Display window", WINDOW_NORMAL);
-    imshow("Display window", image);
+    namedWindow("IMAGE", WINDOW_NORMAL);
+    imshow("IMAGE", image);
     waitKey(0);
     return 0;
 }
